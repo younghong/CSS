@@ -7,7 +7,6 @@ h1 , p {
     margin: 0;
 }
 
-
 .container {
    background: pink;
 }
@@ -17,18 +16,29 @@ h1 , p {
 }
 
 .item-a {
-    background-color: yellow;
+    border: 0px solid #dadada;
+    background-color: #ffffff;
 }
 
 .item-b {
-    background-color: yellowgreen;
+    border: 0px solid #dadada;
+    background-color: #dadada;
 }
+
+
+pop {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+}
+
+
 
 @media screen and (min-width:700px) {
 
     .container {
         font-size: 0;
-        background: black;
+        background: rebeccapurple;
     }
 
     .item {
