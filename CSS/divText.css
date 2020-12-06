@@ -9,6 +9,8 @@ h1 , p {
 
 .container {
    background: pink;
+   box-sizing: border-box;
+   border: 1px solid #dadada;
 }
 
 .item {
@@ -22,7 +24,7 @@ h1 , p {
 
 .item-b {
     border: 0px solid #dadada;
-    background-color: #dadada;
+    background: rgb(251, 250, 252);
 }
 
 
@@ -38,7 +40,7 @@ pop {
 
     .container {
         font-size: 0;
-        background: rebeccapurple;
+        background: rgb(251, 250, 252);
     }
 
     .item {
