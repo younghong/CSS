@@ -2,24 +2,23 @@
 <html lang="kr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <title>DIV Demo</title>
     <link rel="stylesheet" href="./divText2.css" type="text/css">
   </head>
 
   <body>
 
-    <div class="title">
-      <t1>한글 암호화 시키기</t1>
-    </div>
-    
+    <header>
+      <div class="title">
+        <t1>한글 암호화 시키기</t1>
+      </div>
 
-
-    <div class="container2">
-
-      <div class="item-copy">
-        <button onclick="CopyToClipboard('OTA')">Copy</button>
-      </div>  
-    </div>
+      <div>
+        <span id="count" class="textCount">0</span>
+        <button onclick="CopyToClipboard('OTA')" class="copyBtn">Copy</button>
+      </div>
+    </header>
 
  
     <div class="container">
@@ -28,7 +27,6 @@
         
         <div class="item item-a2" contenteditable="true" 
         id="TA" onkeyup="changeTextArea(event)">
-          
         </div>
 
       </div>
@@ -38,14 +36,11 @@
         <div class="item item-b2" id="OTA">
           
         </div>
-
       </div>
 
     </div>
 
-    <div class="item-count">
-      <span id="count">0</span>
-    </div>
+
 
 
 
