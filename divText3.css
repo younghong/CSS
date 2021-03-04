@@ -1,0 +1,27 @@
+.jb-container {
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  .jb-header {
+    padding: 0px;
+    margin: 0px auto;
+    border: 0px solid #bcbcbc;
+  }
+  .jb-content {
+    padding: 0px;
+    margin: 0px auto;
+    border: 0px solid #bcbcbc;
+  }
+  .jb-sidebar {
+    width: 260px;
+    padding: 0px;
+    margin: 0px auto;
+    float: right;
+    border: 0px solid #bcbcbc;
+  }
+  .jb-footer {
+    clear: both;
+    padding: 0px;
+    border: 0px solid #bcbcbc;
+  }
